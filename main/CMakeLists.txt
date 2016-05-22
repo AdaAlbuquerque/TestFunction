@@ -10,15 +10,9 @@ AUX_SOURCE_DIRECTORY(. SRC_LIST)
 
 MESSAGE("SRC LIST: \n" ${SRC_LIST})
 
-SET(LIBS    #event 
-            boost_system 
+SET(LIBS    boost_system 
             boost_thread 
-            #json_linux-gcc-4.8.3_libmt 
-            hpr 
-           # rdkafka 
             zookeeper_mt
-            #hlog
-            #curl
             uuid
             )
 
